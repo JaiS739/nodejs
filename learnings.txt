@@ -1,0 +1,11 @@
+Module - It is an encapsulated and reusable chunk of code that has itw own context.
+        In node  each file is treated as a seperate module.
+
+Types of modules:-
+    1. Local modules - Modules that we create in our application.
+    2. Built-in modules - Modules that node ships with out of the box.
+    3. Third party modules - Written by others developers. That we can use in our application.
+
+CJS - CommonJS - is a standard that states how a module should be structures and shared.
+
+module wrapper contains five parameter = exports, require, module, __filename, __dirname
